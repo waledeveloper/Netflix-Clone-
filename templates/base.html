@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" >
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NETFLIX-  {% block title %}{% endblock title %} </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+  </head>
+  {%block others%}{%endblock others%}
+  <body class="bg-black text-gray-100 font-primary" >
+    {%block content%}
+
+    {%endblock content%}
+    
+    <script src="" async defer></script>
+  </body>
+</html>
